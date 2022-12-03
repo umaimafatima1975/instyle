@@ -1,0 +1,304 @@
+
+
+.contact-start {
+    padding-top: 76px;
+}
+section.contact-sec {
+    background: black;
+}
+.main_heading h4 {
+    color: #ff006c;
+    font-family: "GTWalsheimPro-Bold";
+    font-size: 18px;
+}
+
+.contact-start .main_heading h2 {
+    font-size: 41px;
+    color: white;
+}
+
+.contact-num-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-num-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 53px;
+}
+
+.all-cotact-detail {
+    width: 30%;
+    padding-right: 10px;
+}
+
+.all-cotact-detail h5 {
+    font-family: "GTWalsheimPro-Bold";
+    margin-bottom: 0;
+}
+
+.contact-information {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.contact-all-foam {
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box-contact {
+    width: 89%;
+    background: #FFFFFF;
+    text-align: left;
+    padding: 42px 42px;
+    box-shadow: 7px 8px 5px -2px #dedee1;
+    z-index: 999;
+}
+
+
+.contact-control {
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    color: #8A8A8A !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+}
+.contact-all-foam 
+ .main_heading h2 {
+    color: black;
+    font-family: "GTWalsheimPro-Bold";
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.contact-all-foam  .main_heading {
+    padding-bottom: 12px;
+}
+.this-form {
+    margin: 10px 0;
+}
+
+label {
+    margin-left: 12px;
+}
+
+textarea {
+    resize: none;
+}
+
+.message textarea:focus {
+    outline: none;
+}
+
+.message textarea {
+    background: none;
+    color: #8A8A8A !important;
+    font-size: 13px;
+    padding: 0 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    height: 28px;
+    border-radius: 0;
+    border-bottom: 1px solid #C5C5C5;
+    resize: none;
+}
+
+.message-two textarea:focus {
+    outline: none;
+}
+
+.message-two textarea {
+    background: none;
+    color: #8A8A8A !important;
+    font-size: 13px;
+    padding: 0 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    height: 28px;
+    border-radius: 0;
+    border-bottom: 1px solid #C5C5C5;
+    resize: none;
+}
+
+.contact-control:focus {
+    border-color: #C5C5C5 !important;
+    outline: 0;
+}
+
+.message {
+    padding-bottom: 20px;
+}
+
+/* =============
+    CUSTOM checkbox
+================ */
+/* The remember_me */
+.remember_me {
+    display: block;
+    position: relative;
+    padding-left: 29px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+label.remember_me {
+    color: #8A8A8A;
+    font-size: 11px;
+}
+
+/* Hide the browser's default checkbox */
+.remember_me input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #ff006c;
+    border: 1px solid #000;
+}
+
+/* On mouse-over, add a grey background color */
+
+
+/* When the checkbox is checked, add a blue background */
+.remember_me input:checked~.checkmark {
+    background-color: #000000;
+    border: 0px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.remember_me input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.remember_me .checkmark:after {
+    left: 6px;
+    top: 0px;
+    width: 7px;
+    height: 13px;
+    border: solid white;
+    border-width: 0px 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.remember {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.form-chk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+}
+.form-sub-btn .btn {
+    width: 119px;
+    background-color: #ff006c;
+    font-size: 13px;
+    padding: 10px;
+}
+/* ======================= */
+/* custom radio */
+/* custom radio */
+ .remember_container {
+    position: relative;
+    padding-left: 40px;
+}
+
+.remember_container span.checkmark {
+    background: transparent;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 15px;
+    top: 1px;
+    border: 1px solid #01539D;
+}
+
+.remember_container input:checked~span.checkmark {
+    background: linear-gradient(to right, #008cca, #0081c2, #0076ba, #006cb2, #0061a9, #0065ad, #006ab1, #006eb5, #0082c6, #0097d4, #00abe1, #00c0ed);
+    border: 0;
+} 
+    /* CUSTOM CHECKBOX END HERE */
+ 
+/* map css */
+.map iframe {
+    width: 100%;
+}
+
+
+.map {
+    position: relative;
+
+    z-index: 1;
+}
+.form-box-contact {
+    width: 89%;
+    background: #FFFFFF;
+    text-align: left;
+    padding: 42px 42px;
+    box-shadow: 7px 8px 5px -2px #dedee1;
+    z-index: 999;
+    bottom: -154px;
+    position: relative;
+}
+.about-person-active {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+@media (max-width:580px) {
+    .form-chk {
+        flex-direction: column;
+    }
+    .all-cotact-detail {
+        width: 100%;
+        padding-right: 10px;
+        border: 0 !important;
+    }
+    .main_heading h2 {
+        font-size: 24px;
+    }
+}
+@media (max-width:768px) {
+    .contact-information {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
